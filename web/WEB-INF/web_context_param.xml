@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>login</servlet-name>
+        <servlet-class>com.user.login</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>signup</servlet-name>
+        <servlet-class>com.user.signup</servlet-class>
+    </servlet>
+    
+    <context-param>
+        <param-name>dbName</param-name>
+        <param-value>com.mysql.jdbc.Driver</param-value>
+    </context-param>
+    <context-param>
+        <param-name>dbHost</param-name>
+        <param-value>jdbc:mysql://localhost:3306/</param-value>
+    </context-param>
+    <context-param>
+        <param-name>db1</param-name>
+        <param-value>quiz_student</param-value>
+    </context-param>
+    <context-param>
+        <param-name>db2</param-name>
+        <param-value>quiz_management</param-value>
+    </context-param>
+    <context-param>
+        <param-name>db3</param-name>
+        <param-value>quiz_question_set</param-value>    
+    </context-param>
+    <context-param>
+        <param-name>dbUser</param-name>
+        <param-value>root</param-value>
+    </context-param>
+    <context-param>
+        <param-name>dbPassword</param-name>
+        <param-value></param-value>
+    </context-param>
+    
+    
+    
+    <servlet-mapping>
+        <servlet-name>login</servlet-name>
+        <url-pattern>/Student_Panel/login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>signup</servlet-name>
+        <url-pattern>/Student_Panel/signup</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

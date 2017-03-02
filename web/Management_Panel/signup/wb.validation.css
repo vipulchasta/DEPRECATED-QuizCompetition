@@ -1,0 +1,237 @@
+.bubble 
+{
+   position:absolute;
+   top:0px; 
+   left:0px;
+   padding-bottom:13px;
+   display:block;
+   z-index:5000;
+}
+.bubble .bubbleContent 
+{
+   width:100%; 
+   background:#00FF00;
+   color:#000;
+   width:150px;
+   font-family:tahoma;
+   font-size:11px;
+   border:1px solid #808080;
+   padding:4px 10px 4px 10px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+   border-radius: 5px;
+}
+.bubble .bubbleArrow
+{
+   position:absolute;
+   bottom:0;
+   left:20px;
+   width:15px; 
+   height:15px;
+   z-index:5001;
+}			
+.bubble .bubbleArrow div
+{
+   display:block;
+   border-left:2px solid #808080;
+   border-right:2px solid #808080;
+   font-size:0px;
+   line-height:0px;
+   height:1px;
+   background:#00FF00;
+   margin:0 auto;	 
+}
+.bubble .bubbleArrow .line10
+{
+   width:15px;
+   border:none;
+} 
+.bubble .bubbleArrow .line9
+{
+   width:13px;
+   border:none;
+} 
+.bubble .bubbleArrow .line8
+{
+   width:11px;
+} 
+.bubble .bubbleArrow .line7
+{
+   width:9px;
+} 
+.bubble .bubbleArrow .line6
+{
+   width:7px;
+} 
+.bubble .bubbleArrow .line5
+{
+   width:5px;
+} 
+.bubble .bubbleArrow .line4
+{
+   width:3px;
+} 
+.bubble .bubbleArrow .line3
+{
+   width:1px;
+   border-left:2px solid #808080;
+   border-right:2px solid #808080;
+   border-bottom:0px solid #808080;
+} 
+.bubble .bubbleArrow .line2
+{
+   width:3px;
+   border:none;
+   background:#808080;
+}
+.bubble .bubbleArrow .line1
+{
+   width:1px;
+   border:none;
+   background:#808080;
+}  
+
+.bubbleleft
+{
+   position:absolute;
+   top:0px; 
+   left:0px;
+   padding-left:8px;
+   display:block;
+   z-index:5000;
+}
+.bubbleleft .bubbleContent 
+{
+   width: 100%; 
+   background: #00FFFF;
+   color: #808080;
+   width: 150px;
+   font-family: tahoma;
+   font-size: 11px;
+   border: 1px solid #808080;
+   padding: 4px 10px 4px 10px;
+   margin: 0 0 0 1px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.bubbleleft .bubbleArrow
+{
+   position:absolute;
+   top:2px;
+   left:0px;
+   z-index:5001;
+}
+.bubbleleft .bubbleArrow div
+{
+   position:absolute;
+   float:left;
+   border-top:2px solid #808080;
+   border-bottom:2px solid #808080;
+   font-size:0px;
+   line-height:0px;
+   width:1px;
+   background:#00FFFF;
+}
+.bubbleleft .bubbleArrow .line1
+{
+   left: 0px;
+   background:#808080;
+   top:9px;
+   height:1px;
+   border:none;
+} 
+.bubbleleft .bubbleArrow .line2
+{
+   left:1px;
+   top:8px;
+   height:3px;
+   border:none;
+   background:#808080;
+} 
+.bubbleleft .bubbleArrow .line3
+{
+   left:2px;
+   top:7px;
+   height:1px;
+} 
+.bubbleleft .bubbleArrow .line4
+{
+   left:3px;
+   top:6px;
+   height:3px;
+} 
+.bubbleleft .bubbleArrow .line5
+{
+   left:4px;
+   top:5px;
+   height:5px;
+} 
+.bubbleleft .bubbleArrow .line6
+{
+   left:5px;
+   top:4px;
+   height:7px;
+} 
+.bubbleleft .bubbleArrow .line7
+{
+   left:6px;
+   top:3px;
+   height:9px;
+} 
+.bubbleleft .bubbleArrow .line8
+{
+   left:7px;
+   top:2px;
+   height:11px;
+} 
+.bubbleleft .bubbleArrow .line9
+{
+   left:8px;
+   top:1px;
+   height:13px;
+}
+.bubbleleft .bubbleArrow .line10
+{ 
+   left:9px;
+   top:0px;
+   height:15px;
+}  
+
+.tooltip
+{
+   position:absolute;
+   top:0px; 
+   left:0px;
+   display:block;
+   z-index:5000;
+}
+.tooltip .bubbleContent 
+{
+   width: 100%; 
+   background: #00FF00;
+   color: #000;
+   width: 150px;
+   font-family: tahoma;
+   font-size: 11px;
+   border: 1px solid #808080;
+   padding: 4px 10px 4px 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.tooltip .bubbleArrow,
+.tooltip .bubbleArrow .line10,
+.tooltip .bubbleArrow .line9,
+.tooltip .bubbleArrow .line8,
+.tooltip .bubbleArrow .line7,
+.tooltip .bubbleArrow .line6,
+.tooltip .bubbleArrow .line5,
+.tooltip .bubbleArrow .line4,
+.tooltip .bubbleArrow .line3,
+.tooltip .bubbleArrow .line2,
+.tooltip .bubbleArrow .line1
+{
+   width:0px;
+   height:0px;
+} 
